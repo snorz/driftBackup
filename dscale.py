@@ -82,4 +82,4 @@ elif current_time > DOWNLOAD_LIMIT:
         verbose("Oh no!, we can't shrink any further")
     else
         # run docker update service command
-        verbose("Scaling sown to " + new_frontpage_limit)
+        verbose("Scaling down to " + new_frontpage_limit)
